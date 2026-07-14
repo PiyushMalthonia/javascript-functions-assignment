@@ -1,8 +1,8 @@
 // 1. Welcome Function
 function welcomeStudent(name,course){
-    console.log(`Welcome ${name} to the ${course} course`);
+    return `Welcome ${name} to the ${course} course`;
 }
-welcomeStudent("Asha", "JavaScript");
+console.log(welcomeStudent("Asha", "JavaScript"));
 console.log("\n");
 
 
